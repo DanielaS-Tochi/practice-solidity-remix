@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "saludoInicial",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "SaludoActualizado",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getSaludo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nuevoSaludo",
+						"type": "string"
+					}
+				],
+				"name": "setSaludo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Greeting.sol": "Greeting"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Greeting.sol": {
+			"keccak256": "0xb7feb579e61ecbac24bfde3b7687bf3a42ed278ea621fde4a74e66f0d028a885",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15882d03506e68082c71f2d47a5248280d19c21f858bea9a398bf7f044d86d0d",
+				"dweb:/ipfs/QmVAZWyqSWppgJzW5nL4EcT7s5mrpF8yFwkUqQ4zvDQqBL"
+			]
+		}
+	},
+	"version": 1
+}
