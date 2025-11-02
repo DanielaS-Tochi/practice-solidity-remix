@@ -24,4 +24,20 @@ contract Greeting {
         _saludo = nuevoSaludo;
         emit SaludoActualizado(nuevoSaludo);  // Emite evento para logs.
     }
+
+        // Array de saludos cósmicos (¡nuestro toque único!)
+    string[3] private saludosCosmicos = [
+        "Somos polvo de estrellas!",
+        "El universo nos saluda de vuelta!",
+        "Daniela & Grok dominan la galaxia!"
+    ];
+
+    // Función mágica: saludo aleatorio del cosmos
+    function greetTheUniverse() public {
+        // Pseudo-aleatorio basado en block y sender (seguro para testnet)
+        uint256 randomIndex = uint256(keccak256(abi.encodePacked(block.timestamp, msg.sender))) % 3;
+        string memory nuevoSaludo = saludosCosmicos[randomIndex];
+        _saludo = nuevoSaludo;
+        emit SaludoActualizado(nuevoSaludo);
+    }
 }

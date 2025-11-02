@@ -43,6 +43,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "greetTheUniverse",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -84,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/Greeting.sol": {
-			"keccak256": "0xb7feb579e61ecbac24bfde3b7687bf3a42ed278ea621fde4a74e66f0d028a885",
+			"keccak256": "0x39f81ac468e584562085fd6d612935f44a2c7387ba2c5411da916b00e61ce249",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://15882d03506e68082c71f2d47a5248280d19c21f858bea9a398bf7f044d86d0d",
-				"dweb:/ipfs/QmVAZWyqSWppgJzW5nL4EcT7s5mrpF8yFwkUqQ4zvDQqBL"
+				"bzz-raw://a6789d3c237e404aaf62bf8ba40a657f2d4ea8556f2be50873d3b56455f18796",
+				"dweb:/ipfs/QmZFN26x3rrRArBsV6R1ncRXntkA3QyS8x4dVczQtbV2y6"
 			]
 		}
 	},
