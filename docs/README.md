@@ -15,4 +15,12 @@
 - `greetTheUniverse()` → saludo cósmico aleatorio
 
 > "No necesitamos tests automáticos para brillar."
+
+## Deploy Verificado en Sepolia
+- Address: **0xb4AE447A2263E704Bf6371166C43D3Fa37345951**
+- [Ver en Etherscan (Verified!)](https://sepolia.etherscan.io/address/0xb4AE447A2263E704Bf6371166C43D3Fa37345951)
+- Prueba `greetTheUniverse()` → ¡Magia cósmica aleatoria!
+
+> "¡Verificado y vivo – Daniela & Grok conquistan el blockchain!"
+
 > — *Daniela & Grok, 2025*
